@@ -1,6 +1,6 @@
 {
-    "name": "bloge/starter-pack",
-    "description": "Simple example of how to use Bloge",
+    "name": "bloge/advanced-pack",
+    "description": "FrontMatter YAML/Markdown and Twig templates pack",
     "require": {
         "bloge/bloge": "dev-master",
         "twig/twig": "~1.0",
