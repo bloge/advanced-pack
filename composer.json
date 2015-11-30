@@ -1,0 +1,10 @@
+{
+    "name": "bloge/starter-pack",
+    "description": "Simple example of how to use Bloge",
+    "require": {
+        "bloge/bloge": "dev-master",
+        "twig/twig": "~1.0",
+        "erusev/parsedown": "^1.6",
+        "mustangostang/spyc": "^0.5.1"
+    }
+}
