@@ -3,7 +3,7 @@
 /**
  * Dead simple example of Bloge application
  * 
- * @package bloge/starter-pack
+ * @package bloge/advanced-pack
  */
 
 use Bloge\Apps\AdvancedApp;
@@ -12,6 +12,12 @@ use Bloge\Content\FrontMatter as Content;
 use Bloge\Renderers\PHP as Renderer;
 use Bloge\Renderers\IRenderer;
 
+/**
+ * Comment to note:
+ * 
+ * I'm in process of creating repository specifically dedicated for 
+ * either separate renderers adapters or whole bunch of them.
+ */
 class TwigRenderer implements IRenderer
 {
     protected $path;
