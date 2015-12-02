@@ -35,11 +35,16 @@ class TwigRenderer implements IRenderer
         return $this->twig;
     }
     
+    public function partial($view, array $data = [])
+    {
+        return $this->twig->render($view, $data);
+    }
+    
     public function render(array $data = [])
     {
         $view = isset($data['view']) ? $data['view'] : '';
         
-        return $this->twig->render($view, $data);
+        return $this->partial($view, $data);
     }
 }
 
