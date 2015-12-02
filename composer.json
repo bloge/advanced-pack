@@ -3,7 +3,7 @@
     "description": "FrontMatter YAML/Markdown and Twig templates pack",
     "require": {
         "bloge/bloge": "dev-master",
-        "twig/twig": "~1.0",
+        "bloge/twig-renderer": "dev-master",
         "erusev/parsedown": "^1.6",
         "mustangostang/spyc": "^0.5.1"
     }
